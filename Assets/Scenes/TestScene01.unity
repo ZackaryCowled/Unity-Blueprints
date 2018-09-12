@@ -1,0 +1,1832 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 9
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &207102731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 207102735}
+  - component: {fileID: 207102734}
+  - component: {fileID: 207102733}
+  - component: {fileID: 207102732}
+  m_Layer: 0
+  m_Name: Sphere07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &207102732
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 207102731}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!135 &207102733
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 207102731}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &207102734
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 207102731}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &207102735
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 207102731}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9, y: -1.5, z: -9.36}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &239416923 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1144978573833690, guid: 1e8e1924bb442334c9125455634bb567,
+    type: 2}
+  m_PrefabInternal: {fileID: 2100450282}
+--- !u!114 &239416924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 239416923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a4cbb6e33ecd04b959d9a0a620a0ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: ef1d9800-b710-4e96-81a5-fa3388eea205
+--- !u!114 &239416925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 239416923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb13bd6010cb054186678994492906d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blueprintFilepath: C:/Users/Zack/Desktop/Blueprint/Assets/Resources/Blueprints/CharacterController.txt
+  blueprintJSON: '{"$type":"System.Collections.Generic.List`1[[BlueprintNode, Assembly-CSharp]],
+    mscorlib","$values":[{"$type":"BlueprintNodeVariableFloat, Assembly-CSharp","attributeValue":2.5,"variableName":"movementSpeed","blueprintID":-1,"nodeID":0,"x":136.0,"y":107.0,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":0,"connectionNodeID":4,"sectionID":2,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeVariableFloat,
+    Assembly-CSharp","attributeValue":90.0,"variableName":"rotationSpeed","blueprintID":-1,"nodeID":1,"x":365.0,"y":424.0,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":1,"connectionNodeID":12,"sectionID":2,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeEventGetKey,
+    Assembly-CSharp","selectedKey":119,"blueprintID":-1,"nodeID":2,"x":367.0,"y":35.0,"inputExecutionConnection":null,"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":2,"connectionNodeID":3,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":true,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionInvisible,
+    Assembly-CSharp","blueprintID":-1,"nodeID":2,"connectionNodeID":-1,"sectionID":1,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":false}]}},{"$type":"BlueprintNodeBlueprint,
+    Assembly-CSharp","blueprintFilepath":"C:/Users/Zack/Desktop/Blueprint/Assets/Resources/Blueprints/MoveForward.txt","blueprintJSON":"{\"$type\":\"System.Collections.Generic.List`1[[BlueprintNode,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintNodeEventStart,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":0,\"x\":54.42212,\"y\":184.174438,\"inputExecutionConnection\":null,\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":0,\"connectionNodeID\":2,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[]}},{\"$type\":\"BlueprintNodeVariableFloat,
+    Assembly-CSharp\",\"attributeValue\":2.5,\"variableName\":\"movementSpeed\",\"blueprintID\":-1,\"nodeID\":1,\"x\":53.6416321,\"y\":251.662415,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":1,\"connectionNodeID\":5,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeTransformTranslate_Vector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"x\":714.0085,\"y\":185.393951,\"inputExecutionConnection\":{\"$type\":\"BlueprintConnectionInputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"connectionNodeID\":0,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"connectionNodeID\":-1,\"sectionID\":0,\"connectionSectionID\":-1,\"isInput\":false,\"connectionIsInput\":false,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"connectionNodeID\":4,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeTimeDeltaTime,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"x\":54.6171265,\"y\":313.418518,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"connectionNodeID\":5,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathVector3xFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"x\":486.278442,\"y\":210.576828,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":6,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":5,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":2,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathMultiplyFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"x\":274.0,\"y\":281.0,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":1,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":3,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":4,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeAttributeVector3,
+    Assembly-CSharp\",\"attributeX\":0.0,\"attributeY\":0.0,\"attributeZ\":1.0,\"blueprintID\":-1,\"nodeID\":6,\"x\":54.9999847,\"y\":207.857086,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"connectionNodeID\":4,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}}]}","blueprintID":-1,"nodeID":3,"x":688.0,"y":36.0,"inputExecutionConnection":{"$type":"BlueprintConnectionInputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"connectionNodeID":2,"sectionID":0,"connectionSectionID":0,"isInput":true,"connectionIsInput":false,"isVisible":true},"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"connectionNodeID":-1,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"connectionNodeID":4,"sectionID":1,"connectionSectionID":1,"isInput":true,"connectionIsInput":false,"isVisible":true}]}},{"$type":"BlueprintNodeConnectionFloatOneToMany,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"x":368.0,"y":126.0,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"connectionNodeID":0,"sectionID":1,"connectionSectionID":2,"isInput":true,"connectionIsInput":false,"isVisible":true},{"$type":"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"connectionNodeID":3,"sectionID":1,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true},{"$type":"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"connectionNodeID":9,"sectionID":2,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true},{"$type":"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"connectionNodeID":10,"sectionID":3,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true},{"$type":"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"connectionNodeID":11,"sectionID":4,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeEventGetKey,
+    Assembly-CSharp","selectedKey":115,"blueprintID":-1,"nodeID":5,"x":367.0,"y":79.0,"inputExecutionConnection":null,"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":5,"connectionNodeID":9,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":true,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionInvisible,
+    Assembly-CSharp","blueprintID":-1,"nodeID":5,"connectionNodeID":-1,"sectionID":1,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":false}]}},{"$type":"BlueprintNodeEventGetKey,
+    Assembly-CSharp","selectedKey":97,"blueprintID":-1,"nodeID":6,"x":367.0,"y":232.0,"inputExecutionConnection":null,"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":6,"connectionNodeID":10,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":true,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionInvisible,
+    Assembly-CSharp","blueprintID":-1,"nodeID":6,"connectionNodeID":-1,"sectionID":1,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":false}]}},{"$type":"BlueprintNodeEventGetKey,
+    Assembly-CSharp","selectedKey":100,"blueprintID":-1,"nodeID":7,"x":367.0,"y":277.0,"inputExecutionConnection":null,"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":7,"connectionNodeID":11,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":true,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionInvisible,
+    Assembly-CSharp","blueprintID":-1,"nodeID":7,"connectionNodeID":-1,"sectionID":1,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":false}]}},{"$type":"BlueprintNodeEventGetAxis,
+    Assembly-CSharp","axisName":"Mouse X","deadzone":0.0,"blueprintID":-1,"nodeID":8,"x":367.0,"y":361.0,"inputExecutionConnection":null,"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":8,"connectionNodeID":12,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":true,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionInvisible,
+    Assembly-CSharp","blueprintID":-1,"nodeID":8,"connectionNodeID":-1,"sectionID":2,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":false}]}},{"$type":"BlueprintNodeBlueprint,
+    Assembly-CSharp","blueprintFilepath":"C:/Users/Zack/Desktop/Blueprint/Assets/Resources/Blueprints/MoveBackward.txt","blueprintJSON":"{\"$type\":\"System.Collections.Generic.List`1[[BlueprintNode,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintNodeEventStart,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":0,\"x\":63.76132,\"y\":114.820305,\"inputExecutionConnection\":null,\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":0,\"connectionNodeID\":4,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[]}},{\"$type\":\"BlueprintNodeVariableFloat,
+    Assembly-CSharp\",\"attributeValue\":2.5,\"variableName\":\"movementSpeed\",\"blueprintID\":-1,\"nodeID\":1,\"x\":63.76132,\"y\":142.820343,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":1,\"connectionNodeID\":3,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeTimeDeltaTime,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"x\":62.76133,\"y\":205.820526,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"connectionNodeID\":3,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathMultiplyFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"x\":291.7616,\"y\":174.820419,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"connectionNodeID\":1,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"connectionNodeID\":2,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"connectionNodeID\":5,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeTransformTranslate_Vector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"x\":749.971436,\"y\":114.162422,\"inputExecutionConnection\":{\"$type\":\"BlueprintConnectionInputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":0,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":-1,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":false,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":5,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathVector3xFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"x\":516.7084,\"y\":140.820343,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":6,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":3,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":4,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeAttributeVector3,
+    Assembly-CSharp\",\"attributeX\":0.0,\"attributeY\":0.0,\"attributeZ\":-1.0,\"blueprintID\":-1,\"nodeID\":6,\"x\":291.936768,\"y\":131.682419,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"connectionNodeID\":5,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}}]}","blueprintID":-1,"nodeID":9,"x":685.0,"y":79.0,"inputExecutionConnection":{"$type":"BlueprintConnectionInputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":9,"connectionNodeID":5,"sectionID":0,"connectionSectionID":0,"isInput":true,"connectionIsInput":false,"isVisible":true},"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":9,"connectionNodeID":-1,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":9,"connectionNodeID":4,"sectionID":1,"connectionSectionID":2,"isInput":true,"connectionIsInput":false,"isVisible":true}]}},{"$type":"BlueprintNodeBlueprint,
+    Assembly-CSharp","blueprintFilepath":"C:/Users/Zack/Desktop/Blueprint/Assets/Resources/Blueprints/MoveLeft.txt","blueprintJSON":"{\"$type\":\"System.Collections.Generic.List`1[[BlueprintNode,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintNodeEventStart,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":0,\"x\":161.143341,\"y\":105.482315,\"inputExecutionConnection\":null,\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":0,\"connectionNodeID\":5,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[]}},{\"$type\":\"BlueprintNodeVariableFloat,
+    Assembly-CSharp\",\"attributeValue\":2.5,\"variableName\":\"movementSpeed\",\"blueprintID\":-1,\"nodeID\":1,\"x\":162.143341,\"y\":134.482315,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":1,\"connectionNodeID\":3,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeTimeDeltaTime,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"x\":160.827545,\"y\":199.114014,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"connectionNodeID\":3,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathMultiplyFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"x\":390.1434,\"y\":161.482376,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"connectionNodeID\":1,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"connectionNodeID\":2,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"connectionNodeID\":4,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathVector3xFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"x\":620.5383,\"y\":142.824448,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":6,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":3,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":5,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeTransformTranslate_Vector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"x\":842.801147,\"y\":106.140213,\"inputExecutionConnection\":{\"$type\":\"BlueprintConnectionInputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":0,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":-1,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":false,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":4,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeAttributeVector3,
+    Assembly-CSharp\",\"attributeX\":-1.0,\"attributeY\":0.0,\"attributeZ\":0.0,\"blueprintID\":-1,\"nodeID\":6,\"x\":388.2174,\"y\":118.161385,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"connectionNodeID\":4,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}}]}","blueprintID":-1,"nodeID":10,"x":690.0,"y":233.0,"inputExecutionConnection":{"$type":"BlueprintConnectionInputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":10,"connectionNodeID":6,"sectionID":0,"connectionSectionID":0,"isInput":true,"connectionIsInput":false,"isVisible":true},"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":10,"connectionNodeID":-1,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":10,"connectionNodeID":4,"sectionID":1,"connectionSectionID":3,"isInput":true,"connectionIsInput":false,"isVisible":true}]}},{"$type":"BlueprintNodeBlueprint,
+    Assembly-CSharp","blueprintFilepath":"C:/Users/Zack/Desktop/Blueprint/Assets/Resources/Blueprints/MoveRight.txt","blueprintJSON":"{\"$type\":\"System.Collections.Generic.List`1[[BlueprintNode,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintNodeEventStart,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":0,\"x\":180.486359,\"y\":104.815315,\"inputExecutionConnection\":null,\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":0,\"connectionNodeID\":5,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[]}},{\"$type\":\"BlueprintNodeVariableFloat,
+    Assembly-CSharp\",\"attributeValue\":2.5,\"variableName\":\"movementSpeed\",\"blueprintID\":-1,\"nodeID\":1,\"x\":178.486359,\"y\":130.815323,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":1,\"connectionNodeID\":3,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeTimeDeltaTime,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"x\":181.486359,\"y\":194.8154,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"connectionNodeID\":3,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathMultiplyFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"x\":408.486359,\"y\":167.815384,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"connectionNodeID\":1,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"connectionNodeID\":2,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"connectionNodeID\":4,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathVector3xFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"x\":657.486267,\"y\":146.815323,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":6,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":3,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":5,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeTransformTranslate_Vector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"x\":879.486267,\"y\":105.815315,\"inputExecutionConnection\":{\"$type\":\"BlueprintConnectionInputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":0,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":-1,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":false,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":4,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeAttributeVector3,
+    Assembly-CSharp\",\"attributeX\":1.0,\"attributeY\":0.0,\"attributeZ\":0.0,\"blueprintID\":-1,\"nodeID\":6,\"x\":405.899872,\"y\":124.343826,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"connectionNodeID\":4,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}}]}","blueprintID":-1,"nodeID":11,"x":689.0,"y":277.0,"inputExecutionConnection":{"$type":"BlueprintConnectionInputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":11,"connectionNodeID":7,"sectionID":0,"connectionSectionID":0,"isInput":true,"connectionIsInput":false,"isVisible":true},"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":11,"connectionNodeID":-1,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":11,"connectionNodeID":4,"sectionID":1,"connectionSectionID":4,"isInput":true,"connectionIsInput":false,"isVisible":true}]}},{"$type":"BlueprintNodeBlueprint,
+    Assembly-CSharp","blueprintFilepath":"C:/Users/Zack/Desktop/Blueprint/Assets/Resources/Blueprints/RotateHorizontal.txt","blueprintJSON":"{\"$type\":\"System.Collections.Generic.List`1[[BlueprintNode,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintNodeVariableFloat,
+    Assembly-CSharp\",\"attributeValue\":90.0,\"variableName\":\"rotationSpeed\",\"blueprintID\":-1,\"nodeID\":0,\"x\":106.045982,\"y\":200.395157,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":0,\"connectionNodeID\":2,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeTimeDeltaTime,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":1,\"x\":106.045982,\"y\":265.395264,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":1,\"connectionNodeID\":2,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathMultiplyFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"x\":342.046143,\"y\":233.395218,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"connectionNodeID\":0,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"connectionNodeID\":1,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"connectionNodeID\":6,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathVector3xFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"x\":816.0461,\"y\":186.395111,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"connectionNodeID\":4,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"connectionNodeID\":6,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"connectionNodeID\":8,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeAttributeVector3,
+    Assembly-CSharp\",\"attributeX\":0.0,\"attributeY\":1.0,\"attributeZ\":0.0,\"blueprintID\":-1,\"nodeID\":4,\"x\":571.046143,\"y\":186.395111,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":3,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeGetGetAxis,
+    Assembly-CSharp\",\"axisName\":\"Mouse X\",\"deadzone\":0.0,\"blueprintID\":-1,\"nodeID\":5,\"x\":341.400024,\"y\":298.166656,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":6,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},{\"$type\":\"BlueprintConnectionInvisible,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":-1,\"sectionID\":2,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":false,\"isVisible\":false}]}},{\"$type\":\"BlueprintNodeMathMultiplyFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"x\":572.4,\"y\":253.166656,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"connectionNodeID\":2,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"connectionNodeID\":5,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"connectionNodeID\":3,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeEventStart,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":7,\"x\":101.399994,\"y\":133.166656,\"inputExecutionConnection\":null,\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":7,\"connectionNodeID\":8,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[]}},{\"$type\":\"BlueprintNodeFunctionRotate_Vector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":8,\"x\":1065.96667,\"y\":133.2,\"inputExecutionConnection\":{\"$type\":\"BlueprintConnectionInputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":8,\"connectionNodeID\":7,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":8,\"connectionNodeID\":-1,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":false,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":8,\"connectionNodeID\":3,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true}]}}]}","blueprintID":-1,"nodeID":12,"x":683.0,"y":360.0,"inputExecutionConnection":{"$type":"BlueprintConnectionInputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":12,"connectionNodeID":8,"sectionID":0,"connectionSectionID":0,"isInput":true,"connectionIsInput":false,"isVisible":true},"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":12,"connectionNodeID":-1,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":12,"connectionNodeID":1,"sectionID":1,"connectionSectionID":2,"isInput":true,"connectionIsInput":false,"isVisible":true}]}}]}'
+--- !u!4 &239416927 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4749730850939948, guid: 1e8e1924bb442334c9125455634bb567,
+    type: 2}
+  m_PrefabInternal: {fileID: 2100450282}
+--- !u!1 &404909522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 404909526}
+  - component: {fileID: 404909525}
+  - component: {fileID: 404909524}
+  - component: {fileID: 404909523}
+  m_Layer: 0
+  m_Name: Sphere01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &404909523
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 404909522}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!135 &404909524
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 404909522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &404909525
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 404909522}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &404909526
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 404909522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.5, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &546052844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 546052848}
+  - component: {fileID: 546052847}
+  - component: {fileID: 546052846}
+  - component: {fileID: 546052845}
+  m_Layer: 0
+  m_Name: Sphere02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &546052845
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 546052844}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!135 &546052846
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 546052844}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &546052847
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 546052844}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &546052848
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 546052844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.9, y: -1.5, z: 9.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &792738880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 792738881}
+  - component: {fileID: 792738882}
+  m_Layer: 0
+  m_Name: AnimationContoller
+  m_TagString: AnimationController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &792738881
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 792738880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 239416927}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &792738882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 792738880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb13bd6010cb054186678994492906d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blueprintFilepath: C:/Users/Zack/Desktop/Blueprint/Assets/Resources/Blueprints/CharacterAnimationController.txt
+  blueprintJSON: '{"$type":"System.Collections.Generic.List`1[[BlueprintNode, Assembly-CSharp]],
+    mscorlib","$values":[{"$type":"BlueprintNodeEventStart, Assembly-CSharp","blueprintID":-1,"nodeID":0,"x":64.02899,"y":57.1906548,"inputExecutionConnection":null,"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":0,"connectionNodeID":3,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":true,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[]}},{"$type":"BlueprintNodeVariableComponent`3[[UnityEngine.Animator,
+    UnityEngine.AnimationModule],[BlueprintConnectionAttributeInputAnimator, Assembly-CSharp],[BlueprintConnectionAttributeOutputAnimator,
+    Assembly-CSharp]], Assembly-CSharp","instanceTag":"Player","instanceName":"Player","instanceID":"ef1d9800-b710-4e96-81a5-fa3388eea205","componentName":"Animator","variableName":"characterAnimator","blueprintID":-1,"nodeID":1,"x":64.02899,"y":81.19065,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeOutputAnimator,
+    Assembly-CSharp","blueprintID":-1,"nodeID":1,"connectionNodeID":2,"sectionID":1,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeConnectionVariableComponentOneToMany`2[[BlueprintConnectionAttributeInputAnimator,
+    Assembly-CSharp],[BlueprintConnectionAttributeOutputAnimator, Assembly-CSharp]],
+    Assembly-CSharp","componentName":"Animator","blueprintID":-1,"nodeID":2,"x":316.029022,"y":81.19065,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputAnimator,
+    Assembly-CSharp","blueprintID":-1,"nodeID":2,"connectionNodeID":1,"sectionID":1,"connectionSectionID":1,"isInput":true,"connectionIsInput":false,"isVisible":true},{"$type":"BlueprintConnectionAttributeOutputAnimator,
+    Assembly-CSharp","blueprintID":-1,"nodeID":2,"connectionNodeID":3,"sectionID":1,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true},{"$type":"BlueprintConnectionAttributeOutputAnimator,
+    Assembly-CSharp","blueprintID":-1,"nodeID":2,"connectionNodeID":-1,"sectionID":2,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":true}]}},{"$type":"BlueprintNodeSetSetBool_Animator,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"x":767.6,"y":56.9,"inputExecutionConnection":{"$type":"BlueprintConnectionInputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"connectionNodeID":0,"sectionID":0,"connectionSectionID":0,"isInput":true,"connectionIsInput":false,"isVisible":true},"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"connectionNodeID":-1,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputAnimator,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"connectionNodeID":2,"sectionID":1,"connectionSectionID":1,"isInput":true,"connectionIsInput":false,"isVisible":true},{"$type":"BlueprintConnectionAttributeInputString,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"connectionNodeID":4,"sectionID":2,"connectionSectionID":1,"isInput":true,"connectionIsInput":false,"isVisible":true},{"$type":"BlueprintConnectionAttributeInputBool,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"connectionNodeID":5,"sectionID":3,"connectionSectionID":1,"isInput":true,"connectionIsInput":false,"isVisible":true}]}},{"$type":"BlueprintNodeAttributeString,
+    Assembly-CSharp","attributeValue":"Grounded","blueprintID":-1,"nodeID":4,"x":524.6,"y":18.9,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeOutputString,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"connectionNodeID":3,"sectionID":1,"connectionSectionID":2,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeAttributeBool,
+    Assembly-CSharp","attributeValue":true,"blueprintID":-1,"nodeID":5,"x":526.1,"y":114.399994,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeOutputBool,
+    Assembly-CSharp","blueprintID":-1,"nodeID":5,"connectionNodeID":3,"sectionID":1,"connectionSectionID":3,"isInput":false,"connectionIsInput":true,"isVisible":true}]}}]}'
+--- !u!1 &872567158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 872567159}
+  - component: {fileID: 872567160}
+  - component: {fileID: 872567161}
+  m_Layer: 0
+  m_Name: MenuStateController
+  m_TagString: StateController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &872567159
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 872567158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1977907714}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &872567160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 872567158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb13bd6010cb054186678994492906d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blueprintFilepath: C:/Users/Zack/Desktop/Blueprint/Assets/Resources/Blueprints/MenuStateController.txt
+  blueprintJSON: '{"$type":"System.Collections.Generic.List`1[[BlueprintNode, Assembly-CSharp]],
+    mscorlib","$values":[{"$type":"BlueprintNodeEventGetKeyDown, Assembly-CSharp","selectedKey":119,"blueprintID":-1,"nodeID":0,"x":258.6427,"y":289.906738,"inputExecutionConnection":null,"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":0,"connectionNodeID":2,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":true,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionInvisible,
+    Assembly-CSharp","blueprintID":-1,"nodeID":0,"connectionNodeID":-1,"sectionID":1,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":false}]}},{"$type":"BlueprintNodeVariableInt,
+    Assembly-CSharp","attributeValue":0,"variableName":"state","blueprintID":-1,"nodeID":1,"x":257.093628,"y":446.9374,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeOutputInt,
+    Assembly-CSharp","blueprintID":-1,"nodeID":1,"connectionNodeID":4,"sectionID":2,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeSetSetInt,
+    Assembly-CSharp","blueprintID":-1,"nodeID":2,"x":1140.62439,"y":289.062378,"inputExecutionConnection":{"$type":"BlueprintConnectionInputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":2,"connectionNodeID":0,"sectionID":0,"connectionSectionID":0,"isInput":true,"connectionIsInput":false,"isVisible":true},"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":2,"connectionNodeID":-1,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputInt,
+    Assembly-CSharp","blueprintID":-1,"nodeID":2,"connectionNodeID":3,"sectionID":1,"connectionSectionID":1,"isInput":true,"connectionIsInput":false,"isVisible":true},{"$type":"BlueprintConnectionAttributeInputInt,
+    Assembly-CSharp","blueprintID":-1,"nodeID":2,"connectionNodeID":4,"sectionID":2,"connectionSectionID":2,"isInput":true,"connectionIsInput":false,"isVisible":true}]}},{"$type":"BlueprintNodeMathAddInt,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"x":817.187134,"y":310.937317,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputInt,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"connectionNodeID":4,"sectionID":1,"connectionSectionID":1,"isInput":true,"connectionIsInput":false,"isVisible":true},{"$type":"BlueprintConnectionAttributeInputInt,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"connectionNodeID":5,"sectionID":2,"connectionSectionID":1,"isInput":true,"connectionIsInput":false,"isVisible":true},{"$type":"BlueprintConnectionAttributeOutputInt,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"connectionNodeID":2,"sectionID":1,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeConnectionIntOneToMany,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"x":464.062317,"y":467.187256,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputInt,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"connectionNodeID":1,"sectionID":1,"connectionSectionID":2,"isInput":true,"connectionIsInput":false,"isVisible":true},{"$type":"BlueprintConnectionAttributeOutputInt,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"connectionNodeID":3,"sectionID":1,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true},{"$type":"BlueprintConnectionAttributeOutputInt,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"connectionNodeID":2,"sectionID":2,"connectionSectionID":2,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeAttributeInt,
+    Assembly-CSharp","attributeValue":1,"blueprintID":-1,"nodeID":5,"x":560.9372,"y":331.249847,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeOutputInt,
+    Assembly-CSharp","blueprintID":-1,"nodeID":5,"connectionNodeID":3,"sectionID":1,"connectionSectionID":2,"isInput":false,"connectionIsInput":true,"isVisible":true}]}}]}'
+--- !u!114 &872567161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 872567158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a4cbb6e33ecd04b959d9a0a620a0ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: f7809be3-0380-4a2c-9b62-6ff3ab04c7d2
+--- !u!1 &961211103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 961211107}
+  - component: {fileID: 961211106}
+  - component: {fileID: 961211105}
+  - component: {fileID: 961211104}
+  m_Layer: 0
+  m_Name: Sphere03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &961211104
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 961211103}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!135 &961211105
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 961211103}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &961211106
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 961211103}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &961211107
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 961211103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.7, y: -1.5, z: 8.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1500745110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1500745114}
+  - component: {fileID: 1500745113}
+  - component: {fileID: 1500745112}
+  - component: {fileID: 1500745111}
+  m_Layer: 0
+  m_Name: Sphere05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1500745111
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1500745110}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!135 &1500745112
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1500745110}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1500745113
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1500745110}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1500745114
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1500745110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -15.01, y: -1.5, z: -6.27}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1698745082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1698745087}
+  - component: {fileID: 1698745086}
+  - component: {fileID: 1698745085}
+  - component: {fileID: 1698745084}
+  - component: {fileID: 1698745083}
+  m_Layer: 0
+  m_Name: Ground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &1698745083
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1698745082}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!23 &1698745084
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1698745082}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1698745085
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1698745082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1698745086
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1698745082}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1698745087
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1698745082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2.5, z: 0}
+  m_LocalScale: {x: 50, y: 1, z: 50}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1755195426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1755195430}
+  - component: {fileID: 1755195429}
+  - component: {fileID: 1755195428}
+  - component: {fileID: 1755195427}
+  m_Layer: 0
+  m_Name: Sphere06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1755195427
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1755195426}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!135 &1755195428
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1755195426}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1755195429
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1755195426}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1755195430
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1755195426}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.41, y: -1.5, z: -9.36}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1761485340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1761485344}
+  - component: {fileID: 1761485343}
+  - component: {fileID: 1761485342}
+  - component: {fileID: 1761485341}
+  - component: {fileID: 1761485346}
+  - component: {fileID: 1761485345}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1761485341
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1761485340}
+  m_Enabled: 1
+--- !u!124 &1761485342
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1761485340}
+  m_Enabled: 1
+--- !u!20 &1761485343
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1761485340}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1761485344
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1761485340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1761485345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1761485340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb13bd6010cb054186678994492906d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blueprintFilepath: C:/Users/Zack/Desktop/Blueprint/Assets/Resources/Blueprints/CameraController.txt
+  blueprintJSON: '{"$type":"System.Collections.Generic.List`1[[BlueprintNode, Assembly-CSharp]],
+    mscorlib","$values":[{"$type":"BlueprintNodeEventUpdate, Assembly-CSharp","blueprintID":-1,"nodeID":0,"x":15.0,"y":11.0,"inputExecutionConnection":null,"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":0,"connectionNodeID":7,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":true,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[]}},{"$type":"BlueprintNodeVariableGameObject,
+    Assembly-CSharp","isPrefab":false,"prefabFilepath":"","instanceTag":"Player","instanceName":"Player","instanceID":"ef1d9800-b710-4e96-81a5-fa3388eea205","variableName":"target","blueprintID":-1,"nodeID":1,"x":18.0,"y":36.0,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeOutputGameObject,
+    Assembly-CSharp","blueprintID":-1,"nodeID":1,"connectionNodeID":5,"sectionID":2,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeVariableVector3,
+    Assembly-CSharp","attributeX":0.0,"attributeY":2.0,"attributeZ":-3.5,"variableName":"positionOffset","blueprintID":-1,"nodeID":2,"x":658.0,"y":99.0,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp","blueprintID":-1,"nodeID":2,"connectionNodeID":6,"sectionID":2,"connectionSectionID":2,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeVariableFloat,
+    Assembly-CSharp","attributeValue":2.5,"variableName":"positionDamping","blueprintID":-1,"nodeID":3,"x":658.0,"y":168.0,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"connectionNodeID":6,"sectionID":2,"connectionSectionID":3,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeVariableFloat,
+    Assembly-CSharp","attributeValue":2.5,"variableName":"rotationDamping","blueprintID":-1,"nodeID":4,"x":234.0,"y":124.0,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"connectionNodeID":7,"sectionID":2,"connectionSectionID":2,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeConnectionGameObjectOneToMany,
+    Assembly-CSharp","blueprintID":-1,"nodeID":5,"x":234.0,"y":56.0,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputGameObject,
+    Assembly-CSharp","blueprintID":-1,"nodeID":5,"connectionNodeID":1,"sectionID":1,"connectionSectionID":2,"isInput":true,"connectionIsInput":false,"isVisible":true},{"$type":"BlueprintConnectionAttributeOutputGameObject,
+    Assembly-CSharp","blueprintID":-1,"nodeID":5,"connectionNodeID":7,"sectionID":1,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true},{"$type":"BlueprintConnectionAttributeOutputGameObject,
+    Assembly-CSharp","blueprintID":-1,"nodeID":5,"connectionNodeID":6,"sectionID":2,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeBlueprint,
+    Assembly-CSharp","blueprintFilepath":"C:/Users/Zack/Desktop/Blueprint/Assets/Resources/Blueprints/SmoothFollow.txt","blueprintJSON":"{\"$type\":\"System.Collections.Generic.List`1[[BlueprintNode,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintNodeEventStart,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":0,\"x\":-597.9804,\"y\":-4.67691469,\"inputExecutionConnection\":null,\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":0,\"connectionNodeID\":9,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[]}},{\"$type\":\"BlueprintNodeVariableGameObject,
+    Assembly-CSharp\",\"isPrefab\":false,\"prefabFilepath\":\"\",\"instanceTag\":\"\",\"instanceName\":\"\",\"instanceID\":\"\",\"variableName\":\"target\",\"blueprintID\":-1,\"nodeID\":1,\"x\":-595.9804,\"y\":18.3231735,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputGameObject,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":1,\"connectionNodeID\":8,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeVariableVector3,
+    Assembly-CSharp\",\"attributeX\":0.0,\"attributeY\":3.0,\"attributeZ\":-5.0,\"variableName\":\"positionOffset\",\"blueprintID\":-1,\"nodeID\":2,\"x\":93.02025,\"y\":209.323151,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"connectionNodeID\":15,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeVariableFloat,
+    Assembly-CSharp\",\"attributeValue\":2.5,\"variableName\":\"positionDamping\",\"blueprintID\":-1,\"nodeID\":3,\"x\":1420.02332,\"y\":249.32254,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"connectionNodeID\":27,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeSetSetPosition_Vector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"x\":2094.03223,\"y\":-1.67689967,\"inputExecutionConnection\":{\"$type\":\"BlueprintConnectionInputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":9,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":-1,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":false,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":25,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeAttributeVector3,
+    Assembly-CSharp\",\"attributeX\":0.0,\"attributeY\":0.0,\"attributeZ\":0.0,\"blueprintID\":-1,\"nodeID\":5,\"x\":-153.981171,\"y\":102.323326,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":6,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeConnectionVector3OneToMany,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"x\":81.02062,\"y\":101.323318,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"connectionNodeID\":5,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"connectionNodeID\":9,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"connectionNodeID\":13,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"connectionNodeID\":-1,\"sectionID\":3,\"connectionSectionID\":-1,\"isInput\":false,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"connectionNodeID\":-1,\"sectionID\":4,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":false,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeGetGetPosition_Transform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":7,\"x\":81.02062,\"y\":19.3231812,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":7,\"connectionNodeID\":11,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":7,\"connectionNodeID\":9,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeGetGetTransform_GameObject,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":8,\"x\":-390.980743,\"y\":38.3231049,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputGameObject,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":8,\"connectionNodeID\":1,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":8,\"connectionNodeID\":11,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeSetSetVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":9,\"x\":329.021118,\"y\":-4.67691469,\"inputExecutionConnection\":{\"$type\":\"BlueprintConnectionInputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":9,\"connectionNodeID\":0,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":9,\"connectionNodeID\":4,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":9,\"connectionNodeID\":7,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":9,\"connectionNodeID\":6,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeGetGetForward_Transform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":10,\"x\":534.3887,\"y\":65.55955,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":10,\"connectionNodeID\":12,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":10,\"connectionNodeID\":14,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeConnectionTransformOneToMany,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":11,\"x\":-154.134125,\"y\":35.6662521,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":11,\"connectionNodeID\":8,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":11,\"connectionNodeID\":7,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":11,\"connectionNodeID\":12,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeConnectionTransformOneToMany,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":12,\"x\":320.564362,\"y\":67.19133,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":12,\"connectionNodeID\":11,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":12,\"connectionNodeID\":10,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":12,\"connectionNodeID\":17,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathAddVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":13,\"x\":1007.57007,\"y\":120.19146,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":13,\"connectionNodeID\":6,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":13,\"connectionNodeID\":14,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":13,\"connectionNodeID\":21,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathVector3xFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":14,\"x\":774.5682,\"y\":66.19132,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":14,\"connectionNodeID\":10,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":14,\"connectionNodeID\":16,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":14,\"connectionNodeID\":13,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeConnectionVector3OneToMany,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":15,\"x\":318.6877,\"y\":229.758484,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":15,\"connectionNodeID\":2,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":15,\"connectionNodeID\":16,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":15,\"connectionNodeID\":18,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":15,\"connectionNodeID\":29,\"sectionID\":3,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeGetGetZ_Vector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":16,\"x\":539.689,\"y\":162.758362,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":16,\"connectionNodeID\":15,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":16,\"connectionNodeID\":14,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeConnectionTransformOneToMany,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":17,\"x\":543.5422,\"y\":331.855774,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":17,\"connectionNodeID\":12,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":17,\"connectionNodeID\":19,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":17,\"connectionNodeID\":22,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeGetGetY_Vector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":18,\"x\":542.5351,\"y\":214.911621,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":18,\"connectionNodeID\":15,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":18,\"connectionNodeID\":20,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeGetGetUp_Transform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":19,\"x\":765.5362,\"y\":329.911652,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":19,\"connectionNodeID\":17,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":19,\"connectionNodeID\":20,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathVector3xFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":20,\"x\":1005.53662,\"y\":196.9116,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":20,\"connectionNodeID\":19,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":20,\"connectionNodeID\":18,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":20,\"connectionNodeID\":21,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathAddVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":21,\"x\":1232.536,\"y\":119.911461,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":21,\"connectionNodeID\":13,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":21,\"connectionNodeID\":20,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":21,\"connectionNodeID\":24,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeGetGetRight_Transform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":22,\"x\":953.5366,\"y\":349.9116,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":22,\"connectionNodeID\":17,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":22,\"connectionNodeID\":23,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathVector3xFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":23,\"x\":1222.536,\"y\":245.911636,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":23,\"connectionNodeID\":22,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":23,\"connectionNodeID\":29,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":23,\"connectionNodeID\":24,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathAddVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":24,\"x\":1459.536,\"y\":119.911461,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":24,\"connectionNodeID\":21,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":24,\"connectionNodeID\":23,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":24,\"connectionNodeID\":25,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathLerpVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":25,\"x\":1870.2356,\"y\":98.70342,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":25,\"connectionNodeID\":26,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":25,\"connectionNodeID\":24,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":25,\"connectionNodeID\":27,\"sectionID\":3,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":25,\"connectionNodeID\":4,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeGetGetPosition,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":26,\"x\":1457.23523,\"y\":75.70348,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":26,\"connectionNodeID\":25,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathMultiplyFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":27,\"x\":1647.2356,\"y\":260.703583,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":27,\"connectionNodeID\":3,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":27,\"connectionNodeID\":28,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":27,\"connectionNodeID\":25,\"sectionID\":1,\"connectionSectionID\":3,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeTimeDeltaTime,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":28,\"x\":1417.95557,\"y\":312.8425,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":28,\"connectionNodeID\":27,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeGetGetX_Vector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":29,\"x\":546.0005,\"y\":268.0883,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":29,\"connectionNodeID\":15,\"sectionID\":1,\"connectionSectionID\":3,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":29,\"connectionNodeID\":23,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}}]}","blueprintID":-1,"nodeID":6,"x":1000.0,"y":13.0,"inputExecutionConnection":{"$type":"BlueprintConnectionInputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":6,"connectionNodeID":7,"sectionID":0,"connectionSectionID":0,"isInput":true,"connectionIsInput":false,"isVisible":true},"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":6,"connectionNodeID":-1,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputGameObject,
+    Assembly-CSharp","blueprintID":-1,"nodeID":6,"connectionNodeID":5,"sectionID":1,"connectionSectionID":2,"isInput":true,"connectionIsInput":false,"isVisible":true},{"$type":"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp","blueprintID":-1,"nodeID":6,"connectionNodeID":2,"sectionID":2,"connectionSectionID":2,"isInput":true,"connectionIsInput":false,"isVisible":true},{"$type":"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":6,"connectionNodeID":3,"sectionID":3,"connectionSectionID":2,"isInput":true,"connectionIsInput":false,"isVisible":true}]}},{"$type":"BlueprintNodeBlueprint,
+    Assembly-CSharp","blueprintFilepath":"C:/Users/Zack/Desktop/Blueprint/Assets/Resources/Blueprints/SmoothLookAt.txt","blueprintJSON":"{\"$type\":\"System.Collections.Generic.List`1[[BlueprintNode,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintNodeVariableGameObject,
+    Assembly-CSharp\",\"isPrefab\":false,\"prefabFilepath\":\"\",\"instanceTag\":\"\",\"instanceName\":\"\",\"instanceID\":\"\",\"variableName\":\"target\",\"blueprintID\":-1,\"nodeID\":0,\"x\":505.3213,\"y\":151.02652,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputGameObject,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":0,\"connectionNodeID\":5,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeSetSetVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":1,\"x\":510.320923,\"y\":78.02628,\"inputExecutionConnection\":{\"$type\":\"BlueprintConnectionInputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":1,\"connectionNodeID\":19,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":1,\"connectionNodeID\":20,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":1,\"connectionNodeID\":2,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":1,\"connectionNodeID\":4,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeGetGetRotation,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"x\":250.318909,\"y\":130.026215,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":2,\"connectionNodeID\":1,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeAttributeVector3,
+    Assembly-CSharp\",\"attributeX\":0.0,\"attributeY\":0.0,\"attributeZ\":0.0,\"blueprintID\":-1,\"nodeID\":3,\"x\":44.3191376,\"y\":238.02623,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":3,\"connectionNodeID\":4,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeConnectionVector3OneToMany,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"x\":252.319061,\"y\":238.02623,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":3,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":1,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":4,\"connectionNodeID\":16,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeGetGetTransform_GameObject,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"x\":724.321533,\"y\":171.02655,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputGameObject,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":0,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":5,\"connectionNodeID\":20,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeSetSetRotation_Quaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"x\":1889.85291,\"y\":77.18458,\"inputExecutionConnection\":{\"$type\":\"BlueprintConnectionInputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"connectionNodeID\":15,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"connectionNodeID\":-1,\"sectionID\":0,\"connectionSectionID\":-1,\"isInput\":false,\"connectionIsInput\":false,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputQuaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":6,\"connectionNodeID\":7,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathSlerpQuaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":7,\"x\":1664.85046,\"y\":153.184586,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputQuaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":7,\"connectionNodeID\":18,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputQuaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":7,\"connectionNodeID\":14,\"sectionID\":2,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":7,\"connectionNodeID\":10,\"sectionID\":3,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputQuaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":7,\"connectionNodeID\":6,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeVariableFloat,
+    Assembly-CSharp\",\"attributeValue\":2.5,\"variableName\":\"rotationDamping\",\"blueprintID\":-1,\"nodeID\":8,\"x\":1226.28442,\"y\":320.411346,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":8,\"connectionNodeID\":10,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeTimeDeltaTime,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":9,\"x\":1227.28442,\"y\":385.410767,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":9,\"connectionNodeID\":10,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeMathMultiplyFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":10,\"x\":1426.28381,\"y\":333.411255,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":10,\"connectionNodeID\":8,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":10,\"connectionNodeID\":9,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputFloat,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":10,\"connectionNodeID\":7,\"sectionID\":1,\"connectionSectionID\":3,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeGetGetRotation,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":11,\"x\":1175.562,\"y\":171.11496,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":11,\"connectionNodeID\":13,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeAttributeQuaternion,
+    Assembly-CSharp\",\"attributeX\":0.0,\"attributeY\":0.0,\"attributeZ\":0.0,\"attributeW\":1.0,\"blueprintID\":-1,\"nodeID\":12,\"x\":974.25415,\"y\":133.600708,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputQuaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":12,\"connectionNodeID\":14,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeSetSetQuaternion_Vector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":13,\"x\":1409.8186,\"y\":76.36745,\"inputExecutionConnection\":{\"$type\":\"BlueprintConnectionInputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":13,\"connectionNodeID\":20,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":13,\"connectionNodeID\":15,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputQuaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":13,\"connectionNodeID\":14,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":13,\"connectionNodeID\":11,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeConnectionQuaternionOneToMany,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":14,\"x\":1174.82056,\"y\":102.367424,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputQuaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":14,\"connectionNodeID\":12,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputQuaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":14,\"connectionNodeID\":13,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputQuaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":14,\"connectionNodeID\":7,\"sectionID\":2,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeSetSetQuaternion_Vector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":15,\"x\":1657.70984,\"y\":76.7239151,\"inputExecutionConnection\":{\"$type\":\"BlueprintConnectionInputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":15,\"connectionNodeID\":13,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":15,\"connectionNodeID\":6,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputQuaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":15,\"connectionNodeID\":18,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":15,\"connectionNodeID\":16,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeConnectionVector3OneToMany,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":16,\"x\":1421.88977,\"y\":283.35788,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":16,\"connectionNodeID\":4,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputVector3,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":16,\"connectionNodeID\":15,\"sectionID\":1,\"connectionSectionID\":2,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeAttributeQuaternion,
+    Assembly-CSharp\",\"attributeX\":0.0,\"attributeY\":0.0,\"attributeZ\":0.0,\"attributeW\":1.0,\"blueprintID\":-1,\"nodeID\":17,\"x\":1210.92871,\"y\":222.861328,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeOutputQuaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":17,\"connectionNodeID\":18,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeConnectionQuaternionOneToMany,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":18,\"x\":1419.928,\"y\":209.861389,\"inputExecutionConnection\":null,\"outputExecutionConnection\":null,\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputQuaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":18,\"connectionNodeID\":17,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputQuaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":18,\"connectionNodeID\":15,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},{\"$type\":\"BlueprintConnectionAttributeOutputQuaternion,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":18,\"connectionNodeID\":7,\"sectionID\":2,\"connectionSectionID\":1,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true}]}},{\"$type\":\"BlueprintNodeEventStart,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":19,\"x\":238.542542,\"y\":76.37036,\"inputExecutionConnection\":null,\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":19,\"connectionNodeID\":1,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[]}},{\"$type\":\"BlueprintNodeFunctionLookAt_Transform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":20,\"x\":981.0,\"y\":77.0,\"inputExecutionConnection\":{\"$type\":\"BlueprintConnectionInputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":20,\"connectionNodeID\":1,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true},\"outputExecutionConnection\":{\"$type\":\"BlueprintConnectionOutputExecution,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":20,\"connectionNodeID\":13,\"sectionID\":0,\"connectionSectionID\":0,\"isInput\":false,\"connectionIsInput\":true,\"isVisible\":true},\"connections\":{\"$type\":\"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib\",\"$values\":[{\"$type\":\"BlueprintConnectionAttributeInputTransform,
+    Assembly-CSharp\",\"blueprintID\":-1,\"nodeID\":20,\"connectionNodeID\":5,\"sectionID\":1,\"connectionSectionID\":1,\"isInput\":true,\"connectionIsInput\":false,\"isVisible\":true}]}}]}","blueprintID":-1,"nodeID":7,"x":487.966675,"y":11.1999969,"inputExecutionConnection":{"$type":"BlueprintConnectionInputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":7,"connectionNodeID":0,"sectionID":0,"connectionSectionID":0,"isInput":true,"connectionIsInput":false,"isVisible":true},"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":7,"connectionNodeID":6,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":true,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputGameObject,
+    Assembly-CSharp","blueprintID":-1,"nodeID":7,"connectionNodeID":5,"sectionID":1,"connectionSectionID":1,"isInput":true,"connectionIsInput":false,"isVisible":true},{"$type":"BlueprintConnectionAttributeInputFloat,
+    Assembly-CSharp","blueprintID":-1,"nodeID":7,"connectionNodeID":4,"sectionID":2,"connectionSectionID":2,"isInput":true,"connectionIsInput":false,"isVisible":true}]}}]}'
+--- !u!82 &1761485346
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1761485340}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!1 &1893443663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1893443667}
+  - component: {fileID: 1893443666}
+  - component: {fileID: 1893443665}
+  - component: {fileID: 1893443664}
+  m_Layer: 0
+  m_Name: Sphere08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1893443664
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1893443663}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!135 &1893443665
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1893443663}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1893443666
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1893443663}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1893443667
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1893443663}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.16, y: -1.5, z: -4.94}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1950863143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1950863147}
+  - component: {fileID: 1950863146}
+  - component: {fileID: 1950863145}
+  - component: {fileID: 1950863144}
+  m_Layer: 0
+  m_Name: Sphere04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1950863144
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1950863143}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!135 &1950863145
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1950863143}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1950863146
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1950863143}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1950863147
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1950863143}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.84, y: -1.5, z: 1.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1977907712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1977907714}
+  - component: {fileID: 1977907713}
+  m_Layer: 0
+  m_Name: MenuController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1977907713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1977907712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb13bd6010cb054186678994492906d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blueprintFilepath: C:/Users/Zack/Desktop/Blueprint/Assets/Resources/Blueprints/MenuController.txt
+  blueprintJSON: '{"$type":"System.Collections.Generic.List`1[[BlueprintNode, Assembly-CSharp]],
+    mscorlib","$values":[{"$type":"BlueprintNodeEventUpdate, Assembly-CSharp","blueprintID":-1,"nodeID":0,"x":643.7637,"y":85.45386,"inputExecutionConnection":null,"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":0,"connectionNodeID":4,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":true,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[]}},{"$type":"BlueprintNodeVariableGameObject,
+    Assembly-CSharp","isPrefab":false,"prefabFilepath":"","instanceTag":"StateController","instanceName":"MenuStateController","instanceID":"f7809be3-0380-4a2c-9b62-6ff3ab04c7d2","variableName":"menuStateController","blueprintID":-1,"nodeID":1,"x":103.766663,"y":112.5,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeOutputGameObject,
+    Assembly-CSharp","blueprintID":-1,"nodeID":1,"connectionNodeID":2,"sectionID":2,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeGetGetBlueprint,
+    Assembly-CSharp","blueprintID":-1,"nodeID":2,"x":387.5,"y":132.5,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputGameObject,
+    Assembly-CSharp","blueprintID":-1,"nodeID":2,"connectionNodeID":1,"sectionID":1,"connectionSectionID":2,"isInput":true,"connectionIsInput":false,"isVisible":true},{"$type":"BlueprintConnectionAttributeOutputBlueprint,
+    Assembly-CSharp","blueprintID":-1,"nodeID":2,"connectionNodeID":3,"sectionID":1,"connectionSectionID":2,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeGetGetBlueprintVariable,
+    Assembly-CSharp","selectedType":3,"blueprintID":-1,"nodeID":3,"x":645.5,"y":112.5,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputBlueprint,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"connectionNodeID":2,"sectionID":2,"connectionSectionID":1,"isInput":true,"connectionIsInput":false,"isVisible":true},{"$type":"BlueprintConnectionAttributeInputString,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"connectionNodeID":5,"sectionID":3,"connectionSectionID":1,"isInput":true,"connectionIsInput":false,"isVisible":true},{"$type":"BlueprintConnectionAttributeOutputInt,
+    Assembly-CSharp","blueprintID":-1,"nodeID":3,"connectionNodeID":4,"sectionID":1,"connectionSectionID":1,"isInput":false,"connectionIsInput":true,"isVisible":true}]}},{"$type":"BlueprintNodeFunctionLog,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"x":966.3788,"y":84.48271,"inputExecutionConnection":{"$type":"BlueprintConnectionInputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"connectionNodeID":0,"sectionID":0,"connectionSectionID":0,"isInput":true,"connectionIsInput":false,"isVisible":true},"outputExecutionConnection":{"$type":"BlueprintConnectionOutputExecution,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"connectionNodeID":-1,"sectionID":0,"connectionSectionID":0,"isInput":false,"connectionIsInput":false,"isVisible":true},"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeInputString,
+    Assembly-CSharp","blueprintID":-1,"nodeID":4,"connectionNodeID":3,"sectionID":1,"connectionSectionID":1,"isInput":true,"connectionIsInput":false,"isVisible":true}]}},{"$type":"BlueprintNodeAttributeString,
+    Assembly-CSharp","attributeValue":"state","blueprintID":-1,"nodeID":5,"x":387.9308,"y":182.75853,"inputExecutionConnection":null,"outputExecutionConnection":null,"connections":{"$type":"System.Collections.Generic.List`1[[BlueprintConnection,
+    Assembly-CSharp]], mscorlib","$values":[{"$type":"BlueprintConnectionAttributeOutputString,
+    Assembly-CSharp","blueprintID":-1,"nodeID":5,"connectionNodeID":3,"sectionID":1,"connectionSectionID":3,"isInput":false,"connectionIsInput":true,"isVisible":true}]}}]}'
+--- !u!4 &1977907714
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1977907712}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 872567159}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2100450282
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4749730850939948, guid: 1e8e1924bb442334c9125455634bb567, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749730850939948, guid: 1e8e1924bb442334c9125455634bb567, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749730850939948, guid: 1e8e1924bb442334c9125455634bb567, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749730850939948, guid: 1e8e1924bb442334c9125455634bb567, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749730850939948, guid: 1e8e1924bb442334c9125455634bb567, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749730850939948, guid: 1e8e1924bb442334c9125455634bb567, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749730850939948, guid: 1e8e1924bb442334c9125455634bb567, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749730850939948, guid: 1e8e1924bb442334c9125455634bb567, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1144978573833690, guid: 1e8e1924bb442334c9125455634bb567, type: 2}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1144978573833690, guid: 1e8e1924bb442334c9125455634bb567, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 95879256730774250, guid: 1e8e1924bb442334c9125455634bb567,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f297797635a2b7445ad2ea55cec7353b, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 1e8e1924bb442334c9125455634bb567, type: 2}
+  m_IsPrefabParent: 0
